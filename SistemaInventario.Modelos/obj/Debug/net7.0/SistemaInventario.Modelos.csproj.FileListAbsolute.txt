@@ -1,0 +1,15 @@
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Modelos.deps.json
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Modelos.dll
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Modelos.pdb
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Utilidades.dll
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Utilidades.pdb
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.csproj.AssemblyReference.cache
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.AssemblyInfoInputs.cache
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.AssemblyInfo.cs
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.csproj.CoreCompileInputs.cache
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.csproj.CopyComplete
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.dll
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\refint\SistemaInventario.Modelos.dll
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.pdb
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\ref\SistemaInventario.Modelos.dll
