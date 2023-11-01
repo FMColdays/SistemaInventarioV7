@@ -7,10 +7,10 @@ namespace SistemaInventarioV7.AccesoDatos.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) 
         {
         }
+
         public DbSet<Bodega> Bodegas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
