@@ -22,7 +22,7 @@ const loadDataTable = () => {
             }
         },
         "ajax": {
-            "url": "/Admin/Bodega/ObtenerTodos"
+            "url": "/Admin/Categoria/ObtenerTodos"
         },
         "columns": [
             {"data": "nombre", "width": "20%"},
@@ -42,10 +42,10 @@ const loadDataTable = () => {
                 "render": (data) => {
                     return `
                          <div class="text-center">
-                            <a href="/Admin/Bodega/Upsert/${data}" class="btn btn-success text-white" style="cursor: pointer">
+                            <a href="/Admin/Categoria/Upsert/${data}" class="btn btn-success text-white" style="cursor: pointer">
                                 <i class="bi bi-pencil-square"></i>
                             </a>
-                            <a onclick="Delete('/Admin/Bodega/Delete/${data}')" class="btn btn-danger text-white" style="cursor: pointer">
+                            <a onclick="Delete('/Admin/Categoria/Delete/${data}')" class="btn btn-danger text-white" style="cursor: pointer">
                                 <i class="bi bi-trash3-fill"></i>
                             </a>
                          </div>`
@@ -58,7 +58,7 @@ const loadDataTable = () => {
 
 const Delete = (url) => {
     swal({
-        title: `¿Estas seguro de borrar la bodega?`,
+        title: `¿Estas seguro de borrar la categoría?`,
         text: "Este registro no se podra recuperar",
         icon: "warning",
         buttons: true,

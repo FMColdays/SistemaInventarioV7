@@ -1,12 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventarioV7.AccesoDatos.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace SistemaInventario.AccesoDatos.Repositorio
 {
