@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HMebwH5AnQdzGzf9t/xfhPJbgRE6nv4WGEKmyaRj/Mg=",
+  "Hash": "H+jta2HBIeiKkxD+Mdp94FRvnnvTP/lviGcuo6KFzjg=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\categoria.js"
+    },
+    {
+      "Identity": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\marca.js",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "js/marca.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\marca.js"
     },
     {
       "Identity": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\site.js",

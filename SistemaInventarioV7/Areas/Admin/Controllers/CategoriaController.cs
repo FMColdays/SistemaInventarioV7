@@ -9,11 +9,11 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
     public class CategoriaController : Controller
     {
 
-        private readonly IUnidadTrabajo _unidadaTrabajo;
+        private readonly IUnidadTrabajo _unidadTrabajo;
 
         public CategoriaController(IUnidadTrabajo unidadTrabajo)
         {
-            _unidadaTrabajo = unidadTrabajo;
+            _unidadTrabajo = unidadTrabajo;
         }
         public IActionResult Index()
         {
@@ -31,7 +31,7 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
             }
             else
             {
-                categoria = await _unidadaTrabajo.Categoria.Obtener(id.GetValueOrDefault());
+                categoria = await _unidadTrabajo.Categoria.Obtener(id.GetValueOrDefault());
                 if (categoria == null)
                 {
                     return NotFound();
@@ -49,15 +49,15 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
             {
                 if(categoria.Id == 0)
                 {
-                    await _unidadaTrabajo.Categoria.Agregar(categoria);
+                    await _unidadTrabajo.Categoria.Agregar(categoria);
                     TempData[DS.Exitosa] = "Categoría creada exitosamente";
                 }
                 else
                 {
-                    _unidadaTrabajo.Categoria.Actualizar(categoria);
+                    _unidadTrabajo.Categoria.Actualizar(categoria);
                     TempData[DS.Exitosa] = "Categoría actualizada exitosamente";
                 }
-                await _unidadaTrabajo.Guardar();
+                await _unidadTrabajo.Guardar();
                 return RedirectToAction(nameof(Index));
             }
             TempData[DS.Exitosa] = "Error al grabar Categoría";
@@ -68,22 +68,22 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> ObtenerTodos()
         {
-            var todos = await _unidadaTrabajo.Categoria.ObtenerTodos();
+            var todos = await _unidadTrabajo.Categoria.ObtenerTodos();
             return Json(new { data = todos });
         }
 
         [HttpPost]
         public async Task<IActionResult> Delete(int id)
         {
-            var categoriaDB = await _unidadaTrabajo.Categoria.Obtener(id);
+            var categoriaDB = await _unidadTrabajo.Categoria.Obtener(id);
 
             if(categoriaDB == null)
             {
                 return Json(new {success = false, message= "Error al borrar la categoría"});
             }
 
-            _unidadaTrabajo.Categoria.Remover(categoriaDB);
-            await _unidadaTrabajo.Guardar();
+            _unidadTrabajo.Categoria.Remover(categoriaDB);
+            await _unidadTrabajo.Guardar();
             return Json(new { success = true, message = "Categoría borrada exitosamente" });
         }
 
@@ -91,7 +91,7 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
         public async Task<IActionResult> ValidarNombre(string nombre, int id = 0)
         {
             bool valor = false;
-            var lista = await _unidadaTrabajo.Categoria.ObtenerTodos();
+            var lista = await _unidadTrabajo.Categoria.ObtenerTodos();
 
             if(id == 0)
             {
