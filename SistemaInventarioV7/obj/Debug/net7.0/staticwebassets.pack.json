@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\img\\icono.ico",
+      "PackagePath": "staticwebassets\\img\\icono.ico"
+    },
+    {
+      "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\img\\icono.png",
+      "PackagePath": "staticwebassets\\img\\icono.png"
+    },
+    {
       "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\img\\producto\\22d3b55a-d83c-4b79-8f2d-e1bceb84ac89.JPG",
       "PackagePath": "staticwebassets\\img\\producto\\22d3b55a-d83c-4b79-8f2d-e1bceb84ac89.JPG"
     },
@@ -31,6 +39,10 @@
     {
       "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\img\\producto\\9d882246-6918-4a11-9e73-bf7578644676.JPG",
       "PackagePath": "staticwebassets\\img\\producto\\9d882246-6918-4a11-9e73-bf7578644676.JPG"
+    },
+    {
+      "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\img\\producto\\ac30d827-225c-4422-a565-2d72237637dd.JPG",
+      "PackagePath": "staticwebassets\\img\\producto\\ac30d827-225c-4422-a565-2d72237637dd.JPG"
     },
     {
       "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",

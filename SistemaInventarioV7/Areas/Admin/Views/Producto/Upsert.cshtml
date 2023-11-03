@@ -6,7 +6,7 @@
     var titulo = "Crear nuevo producto";
 }
 
-<form method="post" enctype="multipart/form-data">
+<form class="container" method="post" enctype="multipart/form-data">
     @if (Model.Producto.Id != 0)
     {
         titulo = "Editar nuevo producto";
@@ -15,7 +15,7 @@
     }
 
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <div class="row">
+    <div class="row pt-3">
         <h2 class="text-info">@titulo</h2>
     </div>
 
@@ -98,7 +98,7 @@
 
                 <br />
 
-                <div class="d-grid gap-2 d-md-block">
+                <div class="d-grid gap-2 d-md-block pb-4">
                     @if(Model.Producto.Id != 0)
                     {
                         <partial name="_BotonesActualizarYRegresar" model="Model.Producto.Id"/>
