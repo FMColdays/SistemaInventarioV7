@@ -20,9 +20,9 @@ namespace SistemaInventario.Modelos
         public double Precio { get; set; }
 
         [Required(ErrorMessage = "El costo es requerido")]
-        public double Costo {  get; set; }
+        public double Costo { get; set; }
 
-        public string ImagenUrl {  get; set; }
+        public string ImagenUrl { get; set; }
 
         [Required(ErrorMessage = "El estado es requerido")]
         public bool Estado {  get; set; }

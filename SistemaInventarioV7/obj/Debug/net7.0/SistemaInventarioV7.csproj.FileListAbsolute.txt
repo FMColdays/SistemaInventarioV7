@@ -565,3 +565,5 @@ F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\ru\Mi
 F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
