@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6mUuYMuVHfJ9X34Rw04R5zH8424oGucT6uxe4vM79RE=",
+  "Hash": "cw0sQufzsiaG2MivBEi1DGVSATmesE8gkTKaUqtRE9g=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1239,6 +1239,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\producto\\ac30d827-225c-4422-a565-2d72237637dd.JPG"
+    },
+    {
+      "Identity": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\img\\producto\\cf246acf-3e3e-47a5-9a61-a779f1069b5e.JPG",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "img/producto/cf246acf-3e3e-47a5-9a61-a779f1069b5e.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\producto\\cf246acf-3e3e-47a5-9a61-a779f1069b5e.JPG"
     },
     {
       "Identity": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",

@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\img\\producto\\ac30d827-225c-4422-a565-2d72237637dd.JPG"
     },
     {
+      "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\img\\producto\\cf246acf-3e3e-47a5-9a61-a779f1069b5e.JPG",
+      "PackagePath": "staticwebassets\\img\\producto\\cf246acf-3e3e-47a5-9a61-a779f1069b5e.JPG"
+    },
+    {
       "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },

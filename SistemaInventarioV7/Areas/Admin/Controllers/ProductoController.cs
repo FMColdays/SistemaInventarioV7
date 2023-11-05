@@ -53,7 +53,7 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Upsert(ProductoVM productoVM)
         {
-            if(!ModelState.IsValid)
+            if(ModelState.IsValid)
             {
                 var files = HttpContext.Request.Form.Files;
                 string webRootPath = _webHostEnvironment.WebRootPath;
