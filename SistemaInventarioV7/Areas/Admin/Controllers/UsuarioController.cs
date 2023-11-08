@@ -43,7 +43,7 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
 
         [HttpPost]
         public async Task<IActionResult> BloquearDesbloquear([FromBody] string id)
-        {
+        {   
             var usuario = await _unidadTrabajo.UsuarioAplicacion.ObtenerPrimero(u => u.Id == id);
             if (usuario == null)
             {

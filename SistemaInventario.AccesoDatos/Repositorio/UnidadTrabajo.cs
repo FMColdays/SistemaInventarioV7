@@ -1,4 +1,5 @@
 ﻿using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
+using SistemaInventario.Modelos;
 using SistemaInventarioV7.AccesoDatos.Data;
 
 namespace SistemaInventario.AccesoDatos.Repositorio
@@ -12,6 +13,11 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         public IMarcaRepositorio Marca {  get; private set; }
         public IProductoRepositorio Producto { get; private set; }
         public IUsuarioAplicacionRepositorio UsuarioAplicacion { get; private set; }
+        public IBodegaProductoRepositorio BodegaProducto { get; private set; }
+        public IInventarioRepositorio Inventario { get; private set; }
+        public IInventarioDetalleRepositorio InventarioDetalle { get; private set; }
+        public IKardexInventarioRepositorio KardexInventario { get; private set; }
+
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
@@ -21,6 +27,10 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             Marca = new MarcaRepositorio(_db);
             Producto = new ProductoRepositorio(_db);
             UsuarioAplicacion = new UsuarioAplicacionRepositorio(_db);
+            BodegaProducto = new BodegaProductoRepositorio(_db);
+            Inventario = new InventarioRepositorio(_db);
+            InventarioDetalle = new InventarioDetalleRepositorio(_db);
+            KardexInventario = new KardexInventarioRepositorio(_db);
         }
 
         public void Dispose()
