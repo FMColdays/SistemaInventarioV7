@@ -596,3 +596,6 @@ F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\runti
 F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
 F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\libman.json
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Rotativa\Windows\wkhtmltoimage.exe
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Rotativa\Windows\wkhtmltopdf.exe
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Rotativa.AspNetCore.dll
