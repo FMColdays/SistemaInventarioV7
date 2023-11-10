@@ -599,3 +599,4 @@ F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\libma
 F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Rotativa\Windows\wkhtmltoimage.exe
 F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Rotativa\Windows\wkhtmltopdf.exe
 F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Rotativa.AspNetCore.dll
+F:\Proyectos .NET\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Stripe.net.dll

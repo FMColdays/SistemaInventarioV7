@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8SFquvq1p5SrUx6jJ7n5d9Ar1qR4xGRXXR5VSWY9whILitPNvrgapwAXfDjJT5nCu2FuzRwxM3IHTI070g77Bw==",
+  "dgSpecHash": "5mmonxwnUyTfVN4ayH7U6KgnViiYeNaqtS3DA+tTkpKWjmtsIFVjVw97FSOTewYz2+N+alkJbIhnJl7qiID6/w==",
   "success": true,
   "projectFilePath": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\SistemaInventarioV7.csproj",
   "expectedPackageFiles": [
@@ -207,6 +207,7 @@
     "C:\\Users\\erick\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\erick\\.nuget\\packages\\stripe.net\\43.2.0\\stripe.net.43.2.0.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

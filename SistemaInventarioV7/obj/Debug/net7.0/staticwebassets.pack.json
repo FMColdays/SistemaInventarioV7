@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\img\\confirmacion.jpg",
+      "PackagePath": "staticwebassets\\img\\confirmacion.jpg"
+    },
+    {
       "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\img\\icono.ico",
       "PackagePath": "staticwebassets\\img\\icono.ico"
     },
