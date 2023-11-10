@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\js\\marca.js"
     },
     {
+      "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\orden.js",
+      "PackagePath": "staticwebassets\\js\\orden.js"
+    },
+    {
       "Id": "F:\\Proyectos .NET\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\producto.js",
       "PackagePath": "staticwebassets\\js\\producto.js"
     },
