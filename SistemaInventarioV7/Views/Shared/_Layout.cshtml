@@ -86,22 +86,24 @@
                             </li>
                         }
 
-                        @if(httpContextAccessor.HttpContext.Session.GetInt32(DS.ssCarroCompras) != null)
-                        {
-                            <li>
-                                <a asp-area="Inventario" asp-controller="Carro" asp-action="Index" class="nav-link">
-                                    @{
-                                        var numeroProductos = httpContextAccessor.HttpContext.Session.GetInt32(DS.ssCarroCompras);
-                                    }
-                                    <i class="bi bi-cart-fill text-primary">&nbsp; (@numeroProductos) </i>
-                                </a>      
-                            </li>
-                        }
-                        else
-                        {
-                            <li>           
-                                <i class="bi bi-cart-fill text-primary">&nbsp; (0) </i>
-                            </li>
+                        @if (User.Identity.IsAuthenticated){
+                            @if (httpContextAccessor.HttpContext.Session.GetInt32(DS.ssCarroCompras) != null)
+                            {
+                                <li>
+                                    <a asp-area="Inventario" asp-controller="Carro" asp-action="Index" class="nav-link">
+                                        @{
+                                            var numeroProductos = httpContextAccessor.HttpContext.Session.GetInt32(DS.ssCarroCompras);
+                                        }
+                                        <i class="bi bi-cart-fill text-primary">&nbsp; (@numeroProductos) </i>
+                                    </a>      
+                                </li>
+                            }
+                            else
+                            {
+                                <li>           
+                                    <i class="bi bi-cart-fill text-primary">&nbsp; (0) </i>
+                                </li>
+                            }
                         }
                     </ul>
                     <partial name="_LoginPartial" />
